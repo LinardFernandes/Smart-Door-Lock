@@ -2,6 +2,22 @@
 
 This project demonstrates how to create a smart RFID-based door lock system using an ESP8266 microcontroller, MFRC522 RFID reader, and Blynk for remote control and monitoring. Authorized access is granted via specific RFID tags, and the system can be controlled via the Blynk app.
 
+## Table of Contents
+
+- [Components Required](#components-required)
+- [Circuit Connections](#circuit-connections)
+- [Software Requirements](#software-requirements)
+- [Setup Instructions](#setup-instructions)
+  - [1. Configure Blynk](#1-configure-blynk)
+  - [2. Code Configuration](#2-code-configuration)
+  - [3. Upload the Code](#3-upload-the-code)
+  - [4. Wiring](#4-wiring)
+  - [5. Running the System](#5-running-the-system)
+  - [6. Blynk App Features](#6-blynk-app-features)
+- [RFID UIDs Configuration](#rfid-uids-configuration)
+- [Future Improvements](#future-improvements)
+- [License](#license)
+
 ## Components Required
 
 - ESP8266 (e.g., NodeMCU or Wemos D1 Mini)
